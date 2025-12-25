@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmiya M V | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">SMV</div>
+            <div class="menu-overlay"></div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Sowmiya M V</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                    <p class="hero-description">
+                        Motivated and dedicated individual with a strong interest in technology and full-stack development. 
+                        Excited to begin my career by contributing to creative and impactful projects.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/sowmivenkat06" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sowmiya-m-v-59445b318/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mvsowmiya17@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="resume-download">
+                        <a href="resume/Sowmiya_MV_Resume.pdf" download class="btn btn-resume" id="resumeLink">
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <p class="resume-note" style="display: none; color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">
+                            Resume will be available soon
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="images/profile-photo.png" alt="Sowmiya M V" class="profile-photo" id="profilePhoto" onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';">
+                        <div class="photo-placeholder" id="photoPlaceholder" style="display: none;">
+                            <div class="placeholder-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="gradient-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Computer Science Engineering student at Kongu Engineering College, 
+                        currently pursuing my B.E in CSE with a CGPA of 8.25. My journey in technology has 
+                        been driven by curiosity and a desire to create meaningful solutions.
+                    </p>
+                    <p>
+                        I specialize in full-stack web development using the MERN stack, and I'm also 
+                        passionate about UI/UX design. My projects range from practical applications like 
+                        expense trackers to creative branding designs, showcasing my versatility in both 
+                        development and design.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Certification</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2027</div>
+                        <h3>B.E - Computer Science Engineering</h3>
+                        <h4>Kongu Engineering College</h4>
+                        <p>CGPA: 8.25 (4th Semester)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2023</div>
+                        <h3>HSC</h3>
+                        <h4>Green Park International School</h4>
+                        <p>Percentage: 79.4%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2021</div>
+                        <h3>SSLC</h3>
+                        <h4>SRRI SPK Public Senior Secondary School</h4>
+                        <p>Percentage: 89.8%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+                <button class="filter-btn" data-filter="react">React/Next.js</button>
+                <button class="filter-btn" data-filter="nodejs">Node.js</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack react nodejs">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-wallet"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Expense Tracker</h3>
+                        <p>MERN-based Expense Tracker with authentication, expense categorization, spending limit alerts, and visual reports for student finance management.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="project-date">Feb - Apr 2025</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="nodejs">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-taxi"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Taxi Ride Fare Estimator</h3>
+                        <p>Python-based Taxi Fare Estimator integrating Leaflet maps, real-time distance calculation, dynamic fare prediction, and responsive user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-date">Feb - Apr 2025</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="fullstack nodejs">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>File Preview App</h3>
+                        <p>File Preview App with Google OAuth authentication, secure file uploads, Nodemailer-based email verification, and responsive user interface.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>OAuth</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-date">June 2025</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-palette"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>BrewBuzz Branding</h3>
+                        <p>Designed BrewBuzz branding materials using Adobe Illustrator, including creative posters, professional visiting cards, and a modern, memorable logo.</p>
+                        <div class="project-tech">
+                            <span>Adobe Illustrator</span>
+                        </div>
+                        <div class="project-date">May 2025</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-book"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Book Ordering App</h3>
+                        <p>Designed a Book Ordering App prototype in Figma, focusing on intuitive user flows, modern UI design, and seamless ordering experience.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-date">Aug 2024</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-icon"><i class="fas fa-bus"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bus Ticketing System</h3>
+                        <p>Created a Bus Ticketing System prototype in Figma with user-friendly booking flows, modern UI components, and efficient ticket management design.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-date">Sep 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="database">Databases</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-category="tools">
+                            <div class="skill-icon"><i class="fab fa-github"></i></div>
+                            <span>GitHub</span>
+                        </div>
+                            <div class="skill-item" data-category="programming">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item" data-category="programming">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item" data-category="programming">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span>Python</span>
+                        </div>
+                       
+                        <div class="skill-item" data-category="frontend">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item" data-category="frontend">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item" data-category="frontend">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item" data-category="frontend">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item" data-category="frontend">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item" data-category="backend">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item" data-category="backend">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item" data-category="backend">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item" data-category="database">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item" data-category="database">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item" data-category="uiux">
+                            <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item" data-category="uiux">
+                            <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                            <span>Adobe Illustrator</span>
+                        </div>
+                        <div class="skill-item" data-category="uiux">
+                            <div class="skill-icon"><i class="fas fa-image"></i></div>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill-item">Communication</div>
+                        <div class="soft-skill-item">Teamwork</div>
+                        <div class="soft-skill-item">Problem-solving</div>
+                        <div class="soft-skill-item">Adaptability</div>
+                        <div class="soft-skill-item">Time Management</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Leadership Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Leadership</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card highlight">
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>First Place Winner</h3>
+                    <p>Smart Posture Improvement and Alignment (IoT)</p>
+                    <span class="achievement-org">Department-level Ruby Year Celebration, KEC (2025)</span>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-users"></i></div>
+                    <h3>Executive Member</h3>
+                    <p>CSE Association (2025-26)</p>
+                    <span class="achievement-org">Kongu Engineering College</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Executive Member</h3>
+                    <p>Rotaract Club of KEC (2024-27)</p>
+                    <span class="achievement-org">Kongu Engineering College</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Member</h3>
+                    <p>ISTE Professional Society (2024-27)</p>
+                    <span class="achievement-org">Kongu Engineering College</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification-card">
+                <div class="certification-icon"><i class="fas fa-certificate"></i></div>
+                <h3>MongoDB Associate Developer</h3>
+                <p>Certified MongoDB Developer</p>
+                <span class="certification-date">April 2025</span>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mvsowmiya17@gmail.com">mvsowmiya17@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+916369359341">+91 6369359341</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Erode, India</span>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/sowmivenkat06" target="_blank" class="contact-social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sowmiya-m-v" target="_blank" class="contact-social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mvsowmiya17@gmail.com" class="contact-social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sowmiya M V. All rights reserved.</p>
+            <p>Designed & Developed with <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
